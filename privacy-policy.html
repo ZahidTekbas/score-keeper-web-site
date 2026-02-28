@@ -29,18 +29,45 @@
   <!-- Content -->
   <main class="legal-page">
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Effective as of February 23, 2026</p>
+    <p class="last-updated">Effective as of February 28, 2026</p>
 
     <p>This privacy policy applies to the Score Keeper - Track Games app (hereby referred to as "Application") for
       mobile devices that was created by Zahid Tekba&#351; (hereby referred to as "Service Provider") as a Free service.
       This service is intended for use "AS IS".</p>
 
     <h2>Information Collection and Use</h2>
-    <p>The Application does not need internet connection for its capabilities.</p>
+    <p>The Application works fully offline for core functionality such as creating games, tracking scores, and viewing
+      local game history. No internet connection is required for these features, and no data is collected or transmitted
+      when you use the Application in offline mode.</p>
 
-    <p>The Application does not gather Internet Protocol address of your device's.</p>
+    <p>The Application offers optional online features (collectively referred to as "Online Features") that require an
+      internet connection. These include creating a nickname, forming teams, inviting other users, playing team games,
+      adding friends, and viewing shared game history. When you choose to use Online Features, the following information
+      is collected and stored:</p>
 
-    <p>The Application does not gather analytics data &amp; usage data of your actions.</p>
+    <ul>
+      <li><strong>Device Identifier</strong> &mdash; A randomly generated unique identifier (UUID) is created and stored
+        on your device. This identifier is used to associate your device with your online profile. It is not linked to
+        any hardware identifier or personal information.</li>
+      <li><strong>Nickname</strong> &mdash; If you choose to create a nickname, it is stored on our servers. Nicknames
+        are permanent and cannot be changed once claimed.</li>
+      <li><strong>Avatar Preferences</strong> &mdash; If you customize your avatar (emoji and color), these preferences
+        are stored on our servers.</li>
+      <li><strong>Team Data</strong> &mdash; Team names, membership information, and invitation records are stored on
+        our servers when you create or join teams.</li>
+      <li><strong>Game Results</strong> &mdash; When you play a team game, the completed game results (player names,
+        scores, rankings, and round data) are uploaded and stored on our servers so that all team members can view the
+        shared game history.</li>
+      <li><strong>Friend Connections</strong> &mdash; If you add friends, records of these connections are stored on our
+        servers.</li>
+    </ul>
+
+    <p>The Application does not collect or store email addresses, passwords, real names, phone numbers, or any other
+      personally identifiable information beyond your chosen nickname.</p>
+
+    <p>The Application does not gather the Internet Protocol address of your device.</p>
+
+    <p>The Application does not gather analytics data or usage data of your actions.</p>
 
     <p>The Application does not gather precise information about the location of your mobile device.</p>
 
@@ -50,14 +77,16 @@
     <p>The Service Provider may use the information you provided to contact you from time to time to provide you with
       important information, required notices and marketing promotions.</p>
 
-    <p>For a better experience, while using the Application, the Service Provider may require you to provide us with
-      certain personally identifiable information. The information that the Service Provider request will be retained by
-      them and used as described in this privacy policy.</p>
-
     <h2>Third Party Access</h2>
-    <p>Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in
-      improving the Application and their service. The Service Provider may share your information with third parties in
-      the ways that are described in this privacy statement.</p>
+    <p>The Application uses <strong>Supabase</strong> (<a href="https://supabase.com"
+        target="_blank">https://supabase.com</a>) as a backend service to provide Online Features. When you use Online
+      Features, your data (as described above) is transmitted to and stored on Supabase servers. Supabase processes this
+      data on behalf of the Service Provider. You can review Supabase's privacy policy at <a
+        href="https://supabase.com/privacy" target="_blank">https://supabase.com/privacy</a>.</p>
+
+    <p>The Application uses <strong>Supabase Anonymous Authentication</strong> to create a session for your device. This
+      does not require an email address or password. A JSON Web Token (JWT) is issued to your device to securely
+      authenticate requests to the server.</p>
 
     <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
     <ul>
@@ -70,14 +99,18 @@
     </ul>
 
     <h2>Opt-Out Rights</h2>
+    <p>Online Features are entirely optional. You can use the Application fully offline without any data being collected
+      or transmitted.</p>
     <p>You can stop all collection of information by the Application easily by uninstalling it. You may use the standard
       uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or
       network.</p>
 
     <h2>Data Retention Policy</h2>
-    <p>The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable
-      time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application,
-      please contact them at <a href="mailto:zahidtekbas@outlook.com">zahidtekbas@outlook.com</a> and they will respond
+    <p>Data stored locally on your device (game history, settings, backups) remains on your device and is deleted when
+      you uninstall the Application.</p>
+    <p>Data stored on our servers through Online Features (profile, teams, game results, friend connections) is retained
+      for as long as your account is active. If you'd like the Service Provider to delete your online data, please
+      contact them at <a href="mailto:zahidtekbas@outlook.com">zahidtekbas@outlook.com</a> and they will respond
       in a reasonable time.</p>
 
     <h2>Children</h2>
@@ -98,7 +131,9 @@
     <h2>Security</h2>
     <p>The Service Provider is concerned about safeguarding the confidentiality of your information. The Service
       Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider
-      processes and maintains.</p>
+      processes and maintains. All data transmitted between the Application and our servers is encrypted. Access to
+      online data is restricted through Row Level Security policies, ensuring that users can only access data they are
+      authorized to view.</p>
 
     <h2>Changes</h2>
     <p>This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any
