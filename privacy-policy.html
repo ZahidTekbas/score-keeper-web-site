@@ -29,7 +29,7 @@
   <!-- Content -->
   <main class="legal-page">
     <h1>Privacy Policy</h1>
-    <p class="last-updated">Effective as of February 28, 2026</p>
+    <p class="last-updated">Effective as of March 4, 2026</p>
 
     <p>This privacy policy applies to the Score Keeper - Track Games app (hereby referred to as "Application") for
       mobile devices that was created by Zahid Tekba&#351; (hereby referred to as "Service Provider") as a Free service.
@@ -46,9 +46,10 @@
       is collected and stored:</p>
 
     <ul>
-      <li><strong>Device Identifier</strong> &mdash; A randomly generated unique identifier (UUID) is created and stored
-        on your device. This identifier is used to associate your device with your online profile. It is not linked to
-        any hardware identifier or personal information.</li>
+      <li><strong>Email Address and Password</strong> &mdash; When you create an account to use Online Features, your
+        email address and password are collected and stored securely via our authentication provider (Supabase). Your
+        password is hashed and never stored in plain text. Your email address is used solely for account authentication
+        and password recovery.</li>
       <li><strong>Nickname</strong> &mdash; If you choose to create a nickname, it is stored on our servers. Nicknames
         are permanent and cannot be changed once claimed.</li>
       <li><strong>Avatar Preferences</strong> &mdash; If you customize your avatar (emoji and color), these preferences
@@ -62,8 +63,8 @@
         servers.</li>
     </ul>
 
-    <p>The Application does not collect or store email addresses, passwords, real names, phone numbers, or any other
-      personally identifiable information beyond your chosen nickname.</p>
+    <p>The Application does not collect or store real names, phone numbers, or any other personally identifiable
+      information beyond your email address and chosen nickname.</p>
 
     <p>The Application does not gather the Internet Protocol address of your device.</p>
 
@@ -84,9 +85,11 @@
       data on behalf of the Service Provider. You can review Supabase's privacy policy at <a
         href="https://supabase.com/privacy" target="_blank">https://supabase.com/privacy</a>.</p>
 
-    <p>The Application uses <strong>Supabase Anonymous Authentication</strong> to create a session for your device. This
-      does not require an email address or password. A JSON Web Token (JWT) is issued to your device to securely
-      authenticate requests to the server.</p>
+    <p>The Application uses <strong>Supabase Email Authentication</strong> to create and manage user accounts. When you
+      sign up, your email address and password are securely transmitted to Supabase for account creation. A JSON Web
+      Token (JWT) is issued to your device to securely authenticate requests to the server. Your email address is used
+      only for authentication and password recovery &mdash; it is not shared with any other parties or used for
+      marketing purposes.</p>
 
     <p>The Service Provider may disclose User Provided and Automatically Collected Information:</p>
     <ul>
@@ -105,13 +108,17 @@
       uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or
       network.</p>
 
-    <h2>Data Retention Policy</h2>
+    <h2>Data Retention and Deletion</h2>
     <p>Data stored locally on your device (game history, settings, backups) remains on your device and is deleted when
       you uninstall the Application.</p>
-    <p>Data stored on our servers through Online Features (profile, teams, game results, friend connections) is retained
-      for as long as your account is active. If you'd like the Service Provider to delete your online data, please
-      contact them at <a href="mailto:zahidtekbas@outlook.com">zahidtekbas@outlook.com</a> and they will respond
-      in a reasonable time.</p>
+    <p>Data stored on our servers through Online Features (profile, email address, teams, game results, friend
+      connections) is retained for as long as your account is active.</p>
+    <p>You can delete your account and all associated online data directly from within the Application via Settings
+      &gt; Delete Account. When you delete your account, all your online data is permanently removed, including your
+      profile, team memberships, friend connections, and invitations. Teams you created will be transferred to another
+      member if one exists, or deleted entirely. Your local game data is not affected by account deletion.</p>
+    <p>You may also contact the Service Provider at <a
+        href="mailto:zahidtekbas@outlook.com">zahidtekbas@outlook.com</a> to request data deletion.</p>
 
     <h2>Children</h2>
     <p>The Service Provider does not use the Application to knowingly solicit data from or market to children under the
@@ -157,6 +164,7 @@
       <ul class="footer-links">
         <li><a href="privacy-policy.html">Privacy Policy</a></li>
         <li><a href="terms-of-use.html">Terms of Use</a></li>
+        <li><a href="delete-account.html">Delete Account</a></li>
         <li><a href="mailto:zahidtekbas@outlook.com">Contact</a></li>
       </ul>
     </div>
